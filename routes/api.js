@@ -3375,7 +3375,7 @@ router.get('/maker3', async (req, res, next) => {
             text = req.query.text
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Dhavabot') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Alphabot') return res.json(loghandler.invalidKey)
     if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/textmaker3?text=${text}`))
@@ -3398,7 +3398,7 @@ router.get('/maker4', async (req, res, next) => {
             text = req.query.text
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Dhavabot') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Alphabot') return res.json(loghandler.invalidKey)
     if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/textmaker4?text=${text}`))
@@ -3421,7 +3421,7 @@ router.get('/maker3d', async (req, res, next) => {
             text = req.query.text
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Dhavabot') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Alphabot') return res.json(loghandler.invalidKey)
     if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/text3d?text=${text}`))
@@ -3444,7 +3444,7 @@ router.get('/maker3d/no2', async (req, res, next) => {
             text = req.query.text
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Dhavabot') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Alphabot') return res.json(loghandler.invalidKey)
     if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/text3d-2?text=${text}`))
@@ -3467,7 +3467,7 @@ router.get('/maker3d/no3', async (req, res, next) => {
             text = req.query.text
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Dhavabot') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Alphabot') return res.json(loghandler.invalidKey)
     if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/text3d-3?text=${text}`))
@@ -3490,7 +3490,7 @@ router.get('/maker3d/no4', async (req, res, next) => {
             text = req.query.text
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Dhavabot') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Alphabot') return res.json(loghandler.invalidKey)
     if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/text3d-4?text=${text}`))
@@ -3513,7 +3513,7 @@ router.get('/yutub/search', async (req, res, next) => {
             video = req.query.video
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Dhavabot') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Alphabot') return res.json(loghandler.invalidKey)
     if (!video) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter video"})
 
        fetch(encodeURI(`https://yutub-api-zaahirr.herokuapp.com/search?q=${video}`))
@@ -3536,7 +3536,7 @@ router.get('/maker/special/transformer', async (req, res, next) => {
             text = req.query.text
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Dhavabot') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Alphabot') return res.json(loghandler.invalidKey)
     if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/special/transformer?text=${text}`))
@@ -3559,7 +3559,7 @@ router.get('/maker/special/epep', async (req, res, next) => {
             text = req.query.text
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Dhavabot') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Alphabot') return res.json(loghandler.invalidKey)
     if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/special/sertifikatepep?text=${text}`))
